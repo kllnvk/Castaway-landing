@@ -67,6 +67,7 @@ li {
 /* Стили первой секции */
 .main-wrapper {
     display: flex;
+    margin-bottom: 40px;
     gap: 60px;
 }
 
