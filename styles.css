@@ -29,11 +29,13 @@ body {
     font-weight: normal;
     font-style: normal;
     background-color: #191919;
+    color: #fff;
 }
 
 .container {
     max-width: 1300px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 a {
@@ -44,12 +46,22 @@ li {
     list-style: none;
 }
 
+button {
+    height: 51px;
+    border: none;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.58824;
+    color: #fff;
+}
+
 /* Стили хидера */
 
 .header-wrapper {
     display: flex;
     justify-content: space-between;
     padding: 44px 0;
+    align-items: center;
 }
 
 .nav-items {
@@ -78,13 +90,19 @@ li {
 }
 
 .main-text {
-    margin-top: 314px;
-    margin-bottom: 90px;
     font-weight: 400;
     font-size: 70px;
     line-height: 1.25714;
     letter-spacing: 0.05em;
     color: #fff;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 130px;
+    gap: 90px;
 }
 
 .bold-word {
@@ -114,3 +132,92 @@ li {
     align-items: center;
     gap: 17px;
 }
+
+/* Section 2 styling*/
+
+.episode-header {
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.episode-text {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.2375;
+    letter-spacing: 0.05em;
+    color: #fff;
+}
+
+.btn {
+    min-width: 178px;
+    border-radius: 6px;
+    border-color: #118da8;
+    background-color: #118da8;
+    color: #fff;
+}
+
+.episode-header .btn {
+    align-self: center;
+}
+
+.card {
+    min-height: 545px;
+    display: flex;
+    padding: 40px;
+    background-color: #000;
+    gap: 50px;
+    border-radius: 32px;
+    margin-bottom: 60px;
+}
+
+.rigth-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.card-label {
+    border-radius: 6px;
+    min-height: 27px;
+    background-color: #191919;
+    padding: 0 16px;
+    max-width: max-content;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 48px;
+}
+
+.card span {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.58824;
+    color: #118da8;
+    margin-bottom: 18px;
+}
+
+.card h1 {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.1;
+    letter-spacing: 0.04em;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 18px;
+}
+
+.card .btn {
+    max-width: 208px;
+}
+
+
