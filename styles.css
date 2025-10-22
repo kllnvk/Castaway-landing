@@ -79,7 +79,7 @@ button {
 /* Стили первой секции */
 .main-wrapper {
     display: flex;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
     gap: 60px;
 }
 
@@ -140,6 +140,7 @@ button {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+    padding: 100px 0 0 0;
 }
 
 .episode-text {
@@ -163,7 +164,7 @@ button {
 }
 
 .card {
-    min-height: 545px;
+    min-height: 300px;
     display: flex;
     padding: 40px;
     background-color: #000;
@@ -220,4 +221,8 @@ button {
     max-width: 208px;
 }
 
+.card-image{
+    object-fit: cover;
+    min-height: 100%;
+}
 
